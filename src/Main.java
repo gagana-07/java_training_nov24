@@ -11,7 +11,7 @@ class Main {
         list.add(40);
         list.add(50);
     }
-}
+
 
 
 
