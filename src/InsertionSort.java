@@ -1,6 +1,10 @@
 public class InsertionSort {
-    public class insertionSort {
-        public static void insertionSort(int[] arr) {
+    public InsertionSort(int[] arr) {
+
+    }
+
+    public static class insertionSort {
+        public insertionSort(int[] arr) {
             for (int i = 1; i < arr.length; i++) {
                 int key = arr[i];
                 int j = i - 1;
@@ -15,10 +19,7 @@ public class InsertionSort {
             int[] arr = {12, 11, 13, 5, 6};
             System.out.println("Array before sorting:");
             printArray(arr);
-            for (int i : (arr)) {
-                
-            }
-
+            insertionSort insertionSort = new insertionSort(arr);
             System.out.println("Array after sorting:");
             printArray(arr);
         }
@@ -29,5 +30,5 @@ public class InsertionSort {
             System.out.println();
         }
     }
-
 }
+
